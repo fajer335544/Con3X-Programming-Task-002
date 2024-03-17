@@ -1,33 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethereum Functions</title>
+  <title>Show Last Block</title>
 </head>
 <body>
-    <h1>Ethereum Functions</h1>
-    <button onclick={showLastBlock1()}>Show Last Block</button>
-    <button onclick={showUSDTBalance()}>Show USDT Balance</button>
-    <div id="lastBlockResult"></div>
-    <div id="usdtBalanceResult"></div>
+  <h1>Show Last Block</h1>
+  <p id="result"></p>
 
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-<script src="./ShowLastBlock.ts"  >
-   
-     function showLastBlock1() {
-        try {
-            
-           
-            console.log("eeee"+ ShowLastBlock())
-            //document.getElementById('lastBlockResult').innerText = "Latest Ethereum Block is " + result1;
-        } catch (error) {
-            console.error('Error fetching last block:', error);
-        }
-    }
-
-   
-</script>

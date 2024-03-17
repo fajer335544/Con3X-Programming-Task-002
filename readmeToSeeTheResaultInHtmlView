@@ -1,0 +1,5 @@
+the are some updates here :
+to see the results of the last block in HTML view, i added :  server.js and script.js 
+for running it :
+ 1 (combile typeScript to javaScript for calling ShowLastBlock in server.js): npx tsc ShowLastBlock 
+ 2 (run the server ): node server 
