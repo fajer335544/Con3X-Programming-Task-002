@@ -1,6 +1,6 @@
 // Fetch the result from the server and update the HTML view
 async function updateResult() {
-    const response = await fetch('http://localhost:3000/ShowLastBlock');
+    const response = await fetch('/ShowLastBlock');
     const result = await response.text();
     document.getElementById('result').textContent = `Latest Ethereum Block is ${result}`;
   }
